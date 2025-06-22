@@ -43,6 +43,12 @@ Homebrew clangd version 20.1.7
 Features: mac+xpc
 Platform: arm64-apple-darwin24.5.0
 
+macOS 15.5 (24F74)
+NVIM v0.12.0-dev-92+gfece489794
+Build type: RelWithDebInfo
+LuaJIT 2.1.1741730670
+nvim-lspconfig: `7ad4a11cc5742774877c529fcfb2702f7caf75e4`
+
 Logs produced by these steps:
 1. open neovim
 2. go to main.cpp
