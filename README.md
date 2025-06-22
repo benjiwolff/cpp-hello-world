@@ -10,12 +10,15 @@ I just started using c++, there is no project where this does work for me.
 
 Generated compile_command.json includes -I flag to `src` directory. I also tried moving the .hpp in a separate `include` directory.
 ```
+[
 {
   "directory": "/Users/benji/development/clangd-test/build",
-  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/benji/development/clangd-test/src  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -g -std=c++20 -arch arm64 @CMakeFiles/clang-test.dir/src/helloworld.cpp.o.modmap -o CMakeFiles/clang-test.dir/src/helloworld.cpp.o -c /Users/benji/development/clangd-test/src/helloworld.cpp",
-  "file": "/Users/benji/development/clangd-test/src/helloworld.cpp",
-  "output": "CMakeFiles/clang-test.dir/src/helloworld.cpp.o"
-}
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -I/Users/benji/development/clangd-test/src  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -g -std=c++20 -arch arm64 @CMakeFiles/clang-test.dir/src/main.cpp.o.modmap -o CMakeFiles/clang-test.dir/src/main.cpp.o -c /Users/benji/development/clangd-test/src/main.cpp",
+  "file": "/Users/benji/development/clangd-test/src/main.cpp",
+  "output": "CMakeFiles/clang-test.dir/src/main.cpp.o"
+},
+...
+]
 ```
 
 ```
