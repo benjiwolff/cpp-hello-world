@@ -55,4 +55,4 @@ nvim-lspconfig: `7ad4a11cc5742774877c529fcfb2702f7caf75e4`
 3. start typing "helloWorld" (no autocomplete happens)
 4. open helloworld.hpp
 5. back to main.cpp
-6. start typeing "helloWorld" and use autocomplete
+6. start typing "helloWorld" and use autocomplete
