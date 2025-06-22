@@ -11,7 +11,7 @@ project(Jess VERSION 1.0.0 LANGUAGES CXX)
 
 file(GLOB_RECURSE SOURCES "${PROJECT_SOURCE_DIR}/src/*")
 add_executable(clang-test ${SOURCES})
-target_include_directories(clang-test PRIVATE ${PROJECT_SOURCE_DIR})
+target_include_directories(clang-test PRIVATE ${PROJECT_SOURCE_DIR}/src)
 
 if(APPLE) # llvm clang does not auto-discover system headers
   execute_process(
