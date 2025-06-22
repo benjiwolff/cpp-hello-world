@@ -21,8 +21,8 @@ Generated compile_command.json includes -I flag to `src` directory. I also tried
 ]
 ```
 
-```
 neovim clangd configuration
+```
 	require("lspconfig").clangd.setup({
 		capabilities = require("cmp_nvim_lsp").default_capabilities(),
 		cmd = {
