@@ -1,7 +1,5 @@
 int main(int /*argc*/, char * /*argv*/[]) {
-  // completion and ""-header insertion does NOT work
-  // after visiting helloworld.hpp, completion works but not ""-header insertion
-  // helloWorld()
+  // ""-header insertion does not work
 
   // std::cout // completion and <>-header insertion work
   return 0;
